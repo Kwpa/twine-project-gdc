@@ -22,7 +22,8 @@ jobs:
         with:
           repo: tmedwards/tweego
           chmod: 0775
-      - run: tweego Francine_Story_Showcase.twee -o dist/index.html
+      - run: |
+          tweego Francine_Story_Showcase.twee -o dist/index.html
 
       - name: Deploy to Pages
         uses: peaceiris/actions-gh-pages@v3

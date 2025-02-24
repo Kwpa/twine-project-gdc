@@ -1,0 +1,22 @@
+:: StoryTitle
+Francine_Story_Showcase
+
+
+:: StoryData
+{
+  "ifid": "D06343EB-5C03-4097-9E29-DB75379713EF",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Untitled Passage",
+  "zoom": 1
+}
+
+
+:: Go here {"position":"750,250","size":"100,100"}
+
+
+
+:: Untitled Passage {"position":"625,250","size":"100,100"}
+Hi there
+
+[[Go here]]

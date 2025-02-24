@@ -5,8 +5,8 @@ Francine_Story_Showcase
 :: StoryData
 {
   "ifid": "D06343EB-5C03-4097-9E29-DB75379713EF",
-  "format": "Harlowe",
-  "format-version": "3.3.9",
+  "format": "Chapbook",
+  "format-version": "2.3.0",
   "start": "Untitled Passage",
   "zoom": 1
 }

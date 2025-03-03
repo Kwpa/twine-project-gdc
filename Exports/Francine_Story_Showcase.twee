@@ -7,7 +7,7 @@ Francine_Story_Showcase
   "ifid": "D06343EB-5C03-4097-9E29-DB75379713EF",
   "format": "Chapbook",
   "format-version": "2.3.0",
-  "start": "Untitled Passage",
+  "start": "title",
   "zoom": 1
 }
 
@@ -58,12 +58,6 @@ An extremely attractive, black apron clad human appears in your line of sight, h
 
 
 
-:: Untitled Passage {"position":"600,300","size":"100,100"}
-drink:'none'
---
-You open a door and the {reveal link: "smell of coffee hits you like a wave.", passage: "reveal_Passage"}
-
-
 :: Untitled Passage 1 {"position":"975,500","size":"100,100"}
 [if drink == 'double_espresso']
 You cannot sell any apples, but the day is sunny so you enjoy the walk home instead!
@@ -73,6 +67,12 @@ You sell your only apple, it's enough to buy a tasty candy!
 
 [if drink == 'oolong tea']
 You sell {apples} apples, and use the money to buy some blackberry jam!
+
+
+:: beginning {"position":"600,300","size":"100,100"}
+drink:'none'
+--
+You open a door and the {reveal link: "smell of coffee hits you like a wave.", passage: "reveal_Passage"}
 
 
 :: drawing {"position":"1800,300","size":"100,100"}
@@ -132,5 +132,12 @@ smell of coffee hits you like a wave, wafting into your olfactory senses along w
 They shrug and give you yet another angle of their startiling beauty as they walk back to the caffeinated steam slowly steeping this place from a mazarotti espresso machine. [[How did you get so lucky today?]]
 
 
-:: want {"position":"2200,200","size":"100,100"}
+:: title {"position":"400,300","size":"100,100"}
+Coffee Shop 
+by Ezmir Lickure
 
+[[Begin ->beginning]]
+
+
+:: want {"position":"2200,200","size":"100,100"}
+...To Be Continued...

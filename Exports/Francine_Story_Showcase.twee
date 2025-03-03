@@ -26,11 +26,22 @@ A plush, slightly faded along the edges, ruby velour fabric sinks gently as your
 
 
 
+:: How did you get so lucky today? {"position":"1400,300","size":"100,100"}
+You pull out your pen and note book, take a deep breath and let your attention wander the space...and realize someone [[else]] has noticed YOU.
+
+
 :: Order now {"position":"1000,100","size":"100,100"}
+drink:'double_espresso'
+--
 You glance at the menu, not even needing to think.
 
-'Double espresso...' you look up into the most gorgeous green eyes you've ever seen
-'...Please' a bit of breath catches on the word. It's been a long time since someone's appearance has so surprised you.
+[[i want something dark]]
+
+[[i want something creamy]]
+
+[[i need clarity]]
+
+
 
 
 :: Sit at the bar stool in the sunshine by the window {"position":"800,400","size":"100,100"}
@@ -40,17 +51,73 @@ An extremely attractive, black apron clad human appears in your line of sight, h
 
 
 :: Tell them you need a minute {"position":"1000,300","size":"100,100"}
-'Just a second' you manage to get out some what confidently depsite the piercingly playful green eyes questioning your menu decisions. They shrug and give you yet another angle of their startiling beauty as they walk back to the caffeinated steam slowly steeping this place from a mazarotti espresso machine. How did you get so lucky today?
+'Just a second' you manage to get out some what confidently despite [[the piercingly playful green eyes]] questioning your menu decisions.
+ 
 
-You pull out your pen and note book, take a deep breath and let your attention wander the space...and realize someone [[else]] has noticed YOU.
+
+
 
 
 :: Untitled Passage {"position":"600,300","size":"100,100"}
+drink:'none'
+--
 You open a door and the {reveal link: "smell of coffee hits you like a wave.", passage: "reveal_Passage"}
 
 
-:: else {"position":"1200,300","size":"100,100"}
+:: Untitled Passage 1 {"position":"975,500","size":"100,100"}
+[if drink == 'double_espresso']
+You cannot sell any apples, but the day is sunny so you enjoy the walk home instead!
 
+[if drink == 'mocha']
+You sell your only apple, it's enough to buy a tasty candy!
+
+[if drink == 'oolong tea']
+You sell {apples} apples, and use the money to buy some blackberry jam!
+
+
+:: drawing {"position":"1800,300","size":"100,100"}
+The mystery artist drops their gaze to the page, furiously. You're not sure exactly how you know, but you KNOW, it's you their capturing to paper. Maybe it's the open angle of their [[left collar bone]] in orientation to your chair...
+
+
+:: else {"position":"1600,300","size":"100,100"}
+There, across the cafe, sits your shadow. Same notebook, but cinnamon cover instead of your red, like rusty bridge rails at sunset. A stack of charcoal neatly arranged in a case that is all angles to your cotton carry case full of fineliners...and they are [[drawing]] you.
+
+
+:: i need clarity {"position":"1200,200","size":"100,100"}
+'Oolong tea, and please don't...' 
+
+you look up into the most gorgeous green eyes you've ever seen
+
+'...burn it.'
+
+A bit of breath catches on that last word. There's gold in those green eyes. It feels good to ask for what you [[want]].
+
+
+:: i want something creamy {"position":"1200,100","size":"100,100"}
+'Mocha...' you look up into the most gorgeous green eyes you've ever seen
+'...with oatmilk'. Those eyes hold yours steadily.
+
+'Coming right up' Their voice is pure silk on your {link to: 'want', label: 'senses'}.
+
+
+
+
+:: i want something dark {"position":"1200,0","size":"100,100"}
+drink:'double_espresso'
+--
+'Double espresso...' you look up into the most gorgeous {link to: 'want', label: 'green eyes'} you've ever seen.
+
+'...Please' a bit of breath catches on the word. It's been a long time since  appearance has so surprised you. 
+
+
+:: left collar bone {"position":"2000,300","size":"100,100"}
+...or the way their fingers hold the charcoal and the paticular smudge on the pad of the thumb they bring to their mouth as they glance back up at you. Your gazes are cut by the hips of startilingly beautiful barista, expectantly awaiting your order.
+
+{link to: 'i want something dark', label: 'i want something dark'}
+
+{link to: 'i want something creamy', label: 'i want something creamy'}
+
+{link to: 'i need clarity', label: 'i need clarity'}
 
 
 :: reveal_Passage {"position":"600,150","size":"100,100"}
@@ -59,3 +126,11 @@ smell of coffee hits you like a wave, wafting into your olfactory senses along w
 [[Sit at the bar stool in the sunshine by the window]]
 
 [[Grab that cozy love seat in the corner]]
+
+
+:: the piercingly playful green eyes {"position":"1200,300","size":"100,100"}
+They shrug and give you yet another angle of their startiling beauty as they walk back to the caffeinated steam slowly steeping this place from a mazarotti espresso machine. [[How did you get so lucky today?]]
+
+
+:: want {"position":"2200,200","size":"100,100"}
+

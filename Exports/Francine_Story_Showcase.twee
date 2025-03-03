@@ -133,8 +133,15 @@ They shrug and give you yet another angle of their startiling beauty as they wal
 
 
 :: title {"position":"400,300","size":"100,100"}
-Coffee Shop 
+config.style.googleFont: '<link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">'
+config.style.page.font: 'Grape Nuts 26'
+config.style.dark.page.color: 'white on cinnamon-6'
+config.style.dark.page.link.color: 'cinnamon-3'
+--
+**Coffee Shop**
 by Ezmir Lickure
+
+
 
 [[Begin ->beginning]]
 
